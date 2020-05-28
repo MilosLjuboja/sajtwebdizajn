@@ -1,0 +1,3 @@
+User-agent:*
+Disallow:/admin/
+Sitemap: http://mycaffe.00webhostapp.com/sitemap.xml

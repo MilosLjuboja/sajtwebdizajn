@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@-webkit-keyframes animacija {
+  from{
+	  opacity: 0;
+  }
+  to{
+	  opacity: 1;
+  }
+}
+/*OPSTA PRAVILA*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.okvir{
+	width: 1300px;
+	margin: 0px auto;	
+}
+.cistac{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	
+	color: #3a342d;
+}
+
+.trenutniLi{
+	border-bottom: 2px solid #664327;
+}
+/*NAVIGACIJA*/
+#zaglavlje{
+	width: 100%;
+	height: 100px;
+	background-color: #c2c2c2;
+	position: fixed;
+	border-bottom: 2px solid #664327;
+
+}
+#logo{
+	padding-top: 10px;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	width: 200px;
+	float: left;
+}
+#logo span{
+	color: #664327;
+	/*color: #a5835e;*/
+}
+#meni{
+	width: 800px;
+	float: right;
+}
+
+#meni ul{
+	list-style-type: none;
+	float: right;
+	
+}
+#meni ul li{
+	height: 50px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 20px;
+}
+#meni ul li a{
+	margin-right: 10px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;	
+}
+
+/*ODAVDE POCINJE SADRZAJ*/
+#slikaSredina{
+	height: 500px;
+	background-image: url("../img/kafic3.jpg");
+	background-size: cover;
+	
+}
+#sredinaBlok{
+	height: 550px;
+	padding-top: 20px;
+	padding-right: 0px;
+	
+	/*background-color: #c2c2c2;*/
+}
+#sredinaNaslov{
+	width: 250px;
+	margin: 10px auto;
+	font-family: 'Montserrat', sans-serif;
+}
+#sredinaNaslov h1{
+	text-align: center;
+}
+.triBloka{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-right: 10px;
+	padding-left: 20px;
+	animation-name: animacija;
+	animation-duration: 2s;
+}
+.triBloka img{
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.triBloka p{
+	margin-top: 10px;
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+#sredinaDole{
+	
+	height: 300px;
+	/*background-color: #c2c2c2;*/
+}
+#blokDole{
+	height: 300px;
+}
+#tekstDole{
+	width: 600px;
+	padding-top: 20px;
+	margin-left: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	float: left;
+}
+#slikaDole{
+	width:600px;
+	height: 200px;
+	margin-left: 20px;
+	/*border: 2px solid #000;*/
+	float: right;
+}
+#slikaDole img{
+	border-radius: 15px;
+}
+
+/*ODAVDE POCINJE FUTER*/
+#futer{
+	width: 100%;
+	height: 200px;
+	background-color: #999189;
+	color: #eae8e5;
+}
+#futerNav{
+	width: 350px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+}
+#futerNav ul{
+	list-style-type: none;
+}
+#futerNav ul li{
+	margin-top: 5px;
+}
+#futerNav ul li :hover{
+	color: #664327;
+}
+#futerNav ul li a{
+	color: #eae8e5;
+	font-size: 20px;
+}
+#aboutFuter{
+	margin-top: 10px;
+	margin-left: 100px;
+	font-family: 'Montserrat', sans-serif;
+	width: 350px;
+	float: left;
+}
+#aboutFuter h2{
+	text-align: center;
+}
+#aboutFuter p{
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: justify;
+}
+#kontaktFuter{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	color: #eae8e5;
+	float: right;
+}
+#kontaktFuter p{
+	margin-top: 10px;
+}
+#kontaktFuter a{
+	margin: 5px;
+}
+
+#kontaktFuter a i{
+	margin-top: 20px;
+	font-size: 30px;
+	color: #eae8e5;
+}
+#kontaktFuter nav ul li{
+	display: inline-block;
+}
+#kontaktFuter nav ul li a :hover{
+	color: #664327;
+}
+/*Stranica preporuceno pocinje odavde*/
+
+#preporuceno{
+	width: 100%;
+	height: 1200px;
+	padding-top: 120px;
+}
+#gSredina{
+	margin-top: 10px;
+	height: 550px;
+}
+#preporucenoh1{
+	width: 300px;
+	margin: 10px auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px:
+	
+}
+.gBlokovi{
+	width: 400px;
+	height: 500px;
+	margin: 20px 15px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 16px;
+	animation-name: animacija;
+	animation-duration: 2s;
+}
+.gBlokovi img{
+	border-radius: 15px;
+}
+.gBlokovi h2{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.gBlokovi p{
+	margin-top: 10px;
+	text-align: justify;
+	font-size: 18px;
+}
+/*Stranica lokacija pocinje odavde*/
+#lokacija{
+	width: 100%;
+	padding-top: 120px;
+}
+#lokSredina{
+	width: 850px;
+	margin: 80px auto;
+}
+#mapaTekst{
+	width: 200px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	float:left;
+	margin-right: 30px;
+}
+#mapa{
+	width: 600px;
+	float: left;
+}
+#mapa img{
+	border: 2px solid #a5835e;
+	border-radius: 15px;
+}
+/*Stranica kontakt pocinje odavde*/
+
+#kontakt{
+	width: 100%;
+	padding-top: 120px;
+}
+
+#forma{
+	width: 650px;
+	margin: 30px 0px 50px 100px;
+	float: left;
+}
+#naslovTb{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;
+	color: #664327;
+}
+#naslovTb tr th{
+	margin-bottom: 40px;
+}
+#tabela{
+	width: 600px;
+	font-size: 25px;
+}
+.labela{
+	font-family: 'Montserrat', sans-serif;	
+}
+.tr{
+	margin-bottom: 10px;
+	
+}
+.tekst-polje{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	width: 380px;
+}
+#drop{
+	width: 380px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	border-radius: 15px;
+}
+#textarea{
+	width:380px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	resize: none;
+}
+#dugmici{
+	text-align: right;
+}
+.dugme{
+	width: 150px;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	border-radius: 15px;
+}
+#blokKontakt{
+	font-family: 'Montserrat', sans-serif;
+	float: right;
+	width:350px;
+	font-size: 20px;
+	margin-right: 100px;
+}
+
+#blokKontakt h2{
+	width: 300px;
+	color: #664327;
+	font-size: 25px;
+	margin: 30px 0px 20px 0px;
+}
+#blokKontakt h3{
+	color: #664327;
+	margin-bottom: 20px;
+}
+#blokKontakt p{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+#blokKontakt i{
+	font-size: 30px;
+	margin-top: 10px;
+	color: #664327;
+	margin-right: 20px;
+}
+/*Stranica o autoru pocinje odavde*/
+
+#about{
+	width: 100%;
+	padding-top: 120px;
+}
+#oautoruslika{
+	width: 270px;
+	margin: 20px auto;
+}
+#oautoruslika figure{
+	width: 265px;
+	margin: 0px auto;
+	
+}
+#oautoruslika figure img{
+	border-radius: 15px;
+	border: 2px solid #664327;
+}
+#ime{
+	width: 260px;
+	margin: 5px auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+
+
+
+
+

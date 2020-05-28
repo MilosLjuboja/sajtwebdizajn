@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-RS">
+	<head>
+		<title>My caffe</title>
+		<link rel="shortcut icon" href="img/ikonica.ico"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+		<meta charset="utf-8"/>
+		<meta name="keywords" content="My caffe,kafa,espresso"/>
+		<meta name="author" content="Miloš Ljuboja"/>
+		<meta name="description" content="Kafić u Beogradu. Odličan odnos cene i kvaliteta. Pet frendly. Najbolje vrste kafe."/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!--ZAGLAVLJE-->
+		<header>
+			<div id="zaglavlje" >
+				<div class="okvir">
+					<div id="logo" class="okvir">
+						<a href="index.html">MY <span>caffe</span></a>
+					</div>
+					<nav id="meni" class="okvir">
+						<ul>
+							<li><a href="index.html">Početna</a></li>
+							<li><a href="preporuceno.html">Preporučeno</a></li>
+							<li><a href="lokacija.html">Lokacija</a></li>
+							<li><a class="trenutniLi" href="kontakt.html">Kontakt</a></li>
+							<li><a href="oautoru.html">O autoru</a></li>
+						</ul>
+					</nav>
+					<div class="cistac">
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--SADRZAJ-->
+		<main id="kontakt">
+			<div id="kontaktMain" class="okvir">
+				<form action="kontakt.php" name="formaKontakt"  method="POST" id="forma">
+					<table id="tabela">
+						<tbody>
+						<tr class="tr">
+						<th id="naslovTb" colspan="2">Pišite nam</th>
+						</tr>
+							<tr class="tr"> 
+								<td class="td"><label class="labela">Ime</label></td>
+								<td class="td">
+									<input type="text" class="tekst-polje" name="Ime" id="inputime"/>
+								</td>
+								</tr>
+							<tr class="tr">
+								<td><label class="labela">Prezime</label></td>
+								<td class="td">
+									<input type="text" class="tekst-polje"  id="inputprezime" name="prezime"/>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="td"><label class="labela">Izaberite svoju omiljenu kafu</label></td>
+								<td class="td">
+									<select id="drop" name="izaberite">
+										<option value="0">Izaberi...</option>
+										<option value="ESP">Espresso</option>
+										<option value="LAT">Cafe late</option>
+										<option value="MAC">Macchiato</option>
+										<option value="MOC">Caffe mocha</option>
+										<option value="CAP">Capuccino</option>
+										<option value="LMA">Latte Macchiato</option>
+									</select>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="td"><label class="labela">Email</label></td>
+								<td class="td">
+									<input type="email" class="tekst-polje"  id="inputemail" name="email"/>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="td"><label class="labela">Upišite svoju poruku ovde</label></td>
+								<td class="td">
+									<textarea class="tekst-polje" id="textarea" name="polje" cols="10"  rows="5">
+									</textarea>
+								</td>
+							</tr>
+							<tr class="tr">
+								<td class="td" colspan="2" id="dugmici">
+									<input type="submit" value="Pošalji" class="dugme" id="unos" name="unos"/>
+									<input type="reset" value="Poništi" class="dugme"  id="ponisti" name="ponisti"/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+				<div id="blokKontakt">
+						<h2>Kontakt</h2>
+						<p>Tel: 011/ 235 320</p>
+						<p>Email: office@mycaffe.rs</p>
+						<p>Zdravka Čelara 16, 11000, Beograd </p>
+						<h3>Zapratite nas na društvenim mrežama</h3>
+						<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+						<a href="https://plus.google.com"><i class="fab fa-google-plus"></i></a>
+						<a href="https://www.snapchat.com"><i class="fab fa-snapchat"></i></a>
+				</div>
+				<div class="cistac">
+				</div>
+			</div>
+		</main>
+		<!--FUTER-->
+		<footer id="futer">
+			<div id="futerBlok" class="okvir">
+					<div id="futerNav">
+						<nav>
+							<h2>Brzi linkovi</h2>
+							<ul>
+								<li><a href="index.html">Početna</a></li>
+								<li><a href="preporuceno.html">Preporučeno</a></li>
+								<li><a href="lokacija.html">Lokacija</a></li>
+								<li><a href="oautoru.html">O autoru</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div id="aboutFuter">
+						<h2>O nama</h2>
+						<p>Ovaj sajt je isključivo namenjen u edukativne svrhe. Ovaj sajt je isključivo namenjen u edukativne svrhe. Ovaj sajt je isključivo namenjen u edukativne svrhe. Ovaj sajt je isključivo namenjen u edukativne svrhe. Ovaj sajt je isključivo namenjen u edukativne svrhe.</p>
+					</div>
+					<div id="kontaktFuter">
+						<h2>Kontaktirajte nas</h2>
+						<p>Tel: 011/ 235 320</p>
+						<p>Email: office@mycaffe.rs</p>
+						<p>Neka adresa,11000,Beograd </p>
+						<nav>
+							<ul>
+								<li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="https://plus.google.com"><i class="fab fa-google-plus"></i></a></li>
+								<li><a href="https://www.snapchat.com"><i class="fab fa-snapchat"></i></a></li>
+								<li><a href="sitemap.xml"><i class="fas fa-sitemap"></i></a></li>
+								<li><a href="rss.xml"><i class="fas fa-rss"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="cistac">
+					</div>
+				</div>	
+		</footer>
+	</body>
+
+</html>

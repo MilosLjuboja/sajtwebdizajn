@@ -1,0 +1,23 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Novosti o MY caffe kafiću</title>
+		<link>https://mycaffebelgrade.000webhostapp.com/</link>
+		<description>
+			Sve novosti o našoj kafi i novitetima
+		</description>
+		
+		<item>
+			<title>Pet frendly</title>
+			<link></link>
+			<description>Dovedite svog ljubimca dok pijete svoju omiljenu kafu</description>
+		</item>
+		
+		
+		<item>
+			<title>Nova letnja bašta</title>
+			<link></link>
+			<description>Nova letnja bašta u MY caffe-u</description>
+		</item>
+	</channel>
+</rss>
